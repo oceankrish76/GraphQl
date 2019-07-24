@@ -19,3 +19,6 @@ Nodemon is nice and is live like in react
 //go inside and  Krishnas-MacBook-Pro:./Documents/.folderpath/server krishnabagale$ nodemon app
 
 LIVE CHANGES WITH NODEMON
+_______________________________________-
+All we have to do is define type definintion and relation between diff types, rootQuery.
+GraphQl does all the heavylifting for us
