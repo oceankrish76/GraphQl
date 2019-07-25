@@ -1,0 +1,39 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    var url = "http://dbpedia.org/sparql";
+	var query = "PREFIX dbr: <http://dbpedia.org/resource/>"+
+				"PREFIX dbo: <http://dbpedia.org/ontology/>"+
+				"    SELECT ?Artists "+
+			
+			"WHERE { ?s dbo:musicalArtist ?Artists.  } limit 50";
+
+ var queryUrl = encodeURI( url+"?query="+query+"&format=json" );
+    $.ajax({
+        dataType: "jsonp",  
+        url: queryUrl,
+        success: function( _data ) {
+            var results = _data.results.bindings;
+			console.log(results);
+			var li = "";
+            for ( var i in results ) {
+                //var res = results[i].Artists.value;
+                   li += "<li>"+results[i].Artists.value+"</li>";
+            }
+			$("#result").html(li);
+			
+        }
+    });
+</script>			  
+
+</head>
+    <body>
+	
+		<ul id="result"></ul>
+	</body>
+
+</html>	
