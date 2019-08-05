@@ -26,3 +26,4 @@ GraphQl does all the heavylifting for us
 
 # https://medium.com/@sklarman/querying-linked-data-with-graphql-959e28aa8013 Querying DBpedia with GraphQL
  + HyperGraphQl
+______________________________________cd /Users/krishnabagale/Documents/my-app/reactJs/graphql-playlist
