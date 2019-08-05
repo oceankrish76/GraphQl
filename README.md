@@ -22,3 +22,7 @@ LIVE CHANGES WITH NODEMON
 _______________________________________-
 All we have to do is define type definintion and relation between diff types, rootQuery.
 GraphQl does all the heavylifting for us
+
+
+# https://medium.com/@sklarman/querying-linked-data-with-graphql-959e28aa8013 Querying DBpedia with GraphQL
+ + HyperGraphQl
