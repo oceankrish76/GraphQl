@@ -14,3 +14,8 @@ Demo
 Try a live demo over DBpedia at http://www.hypergraphql.org/demo and check out tutorials at http://www.hypergraphql.org/tutorial.
 Code
 Check out the GitHub repository at: https://github.com/hypergraphql/hypergraphql.
+
+
+# Merge 2 GraphQL APIs at The Same Level (AppSync/Github)
+
+https://medium.com/@hiroyuki.osaki/merge-2-graphql-apis-at-the-same-level-appsync-github-75a59214006a
